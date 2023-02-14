@@ -2,15 +2,15 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '4ff47ea1508a46e18e6c6d895b227c93',
+  rootNotionPageId: '6096cd6926d64c2daa5f2bab1c8be105',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'OSEAN BLOG',
-  domain: 'blog.osean.me',
+  name: 'Resume',
+  domain: 'resume.osean.me',
   author: 'SeongHeon Sim',
 
   // open graph metadata (optional)
@@ -50,20 +50,20 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  // navigationStyle: 'default'
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: 'Home',
-      pageId: '4ff47ea1508a46e18e6c6d895b227c93'
-    },
-    {
-      title: 'Resume',
-      pageId: '3e6c7931a4364643aa4f9c9ba80b03af'
-    },
-    {
-      title: 'Blog',
-      pageId: 'b429c38e83324c498d994cc89a059c44'
-    }
-  ]
+  navigationStyle: 'default'
+  // navigationStyle: 'custom',
+  // navigationLinks: [
+  //   {
+  //     title: 'Home',
+  //     pageId: '4ff47ea1508a46e18e6c6d895b227c93'
+  //   },
+  //   {
+  //     title: 'Resume',
+  //     pageId: '3e6c7931a4364643aa4f9c9ba80b03af'
+  //   },
+  //   {
+  //     title: 'Blog',
+  //     pageId: 'b429c38e83324c498d994cc89a059c44'
+  //   }
+  //   ]
 })
