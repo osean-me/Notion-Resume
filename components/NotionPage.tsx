@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-// import cs from 'classnames'
 import { PageBlock } from 'notion-types'
 import { formatDate, getBlockTitle, getPageProperty } from 'notion-utils'
 import BodyClassName from 'react-body-classname'
@@ -256,10 +255,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
       {isDarkMode && <BodyClassName className='dark-mode' />}
 
       <NotionRenderer
-//        bodyClassName={cs(
-//          styles.notion,
-//          pageId === site.rootNotionPageId && 'index-page'
-//        )}
         darkMode={isDarkMode}
         components={components}
         recordMap={recordMap}
