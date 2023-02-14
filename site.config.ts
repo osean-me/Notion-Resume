@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'SeongHeon Sim',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: `Welcome to SeongHeon Sim's resume page.`,
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
