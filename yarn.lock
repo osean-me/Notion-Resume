@@ -691,6 +691,11 @@
   "resolved" "https://registry.npmjs.org/@use-it/event-listener/-/event-listener-0.1.7.tgz"
   "version" "0.1.7"
 
+"@vercel/analytics@^0.1.8":
+  "integrity" "sha512-PQrOI8BJ9qUiVJuQfnKiJd15eDjDJH9TBKsNeMrtelT4NAk7d9mBVz1CoZkvoFnHQ0OW7Xnqmr1F2nScfAnznQ=="
+  "resolved" "https://registry.npmjs.org/@vercel/analytics/-/analytics-0.1.8.tgz"
+  "version" "0.1.8"
+
 "@vercel/og@^0.0.19":
   "integrity" "sha512-1LrPUlCoe8T+aEI1fGdvJDhwewK1/wpYlQnF+E9ERgJMFCnmWH4FA+NYBkQaJqxUUeHoutIxNZTHQFT39+I+BQ=="
   "resolved" "https://registry.npmjs.org/@vercel/og/-/og-0.0.19.tgz"
@@ -3258,7 +3263,7 @@
     "ts-easing" "^0.2.0"
     "tslib" "^2.1.0"
 
-"react@*", "react@^0.14.0 || ^15.0.0 || ^16 || ^17", "react@^15 || ^16", "react@^15.0.0 || ^16.0.0 || ^17.0.0", "react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0  || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16", "react@>=16.8", "react@>=16.8.0", "react@>=16.8.1", "react@>=17":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16 || ^17", "react@^15 || ^16", "react@^15.0.0 || ^16.0.0 || ^17.0.0", "react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0  || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8||^17||^18", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16", "react@>=16.8", "react@>=16.8.0", "react@>=16.8.1", "react@>=17":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
