@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'SeongHeon Sim',
 
   // open graph metadata (optional)
-  description: `Welcome to SeongHeon Sim's resume page.`,
+  description: `한계 돌파를 즐기는 개발자, 심성헌입니다.`,
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
